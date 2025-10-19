@@ -1,0 +1,62 @@
+{
+  "mod_elements": [
+    {
+      "name": "Giraffe",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giraffe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildlife/models/item/giraffe_spawn_egg.json",
+          "src/main/java/org/samu04072013/wildlife/entity/GiraffeEntity.java",
+          "src/main/resources/data/wildlife/neoforge/biome_modifier/giraffe_biome_modifier.json",
+          "src/main/resources/assets/wildlife/items/giraffe_spawn_egg.json",
+          "src/main/java/org/samu04072013/wildlife/client/renderer/GiraffeRenderer.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.wildlife.giraffe_spawn_egg": "Giraffe Spawn Egg",
+      "entity.wildlife.giraffe": "Giraffe"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/org/samu04072013/wildlife/init/WildlifeModModels.java",
+      "src/main/java/org/samu04072013/wildlife/WildlifeMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/org/samu04072013/wildlife/init/WildlifeModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/org/samu04072013/wildlife/init/WildlifeModItems.java",
+      "src/main/java/org/samu04072013/wildlife/init/WildlifeModEntityRenderers.java",
+      "src/main/java/org/samu04072013/wildlife/init/WildlifeModEntities.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "wildlife",
+    "modName": "wildlife",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "org.samu04072013.wildlife"
+  },
+  "mcreatorVersion": 202500342611
+}

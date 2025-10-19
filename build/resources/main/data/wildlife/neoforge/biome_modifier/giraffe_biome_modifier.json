@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "savanna",
+  "spawners": {
+    "type": "wildlife:giraffe",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

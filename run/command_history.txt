@@ -1,0 +1,12 @@
+/summon wildlife:giraffe ~ ~ ~ {NoAI:1}
+/time set noon
+/kill @e[type=!minecraft:player]
+/enchant @s minecraft:sharpness 255
+/give @s minecraft:netherite_sword[minecraft:enchantments={id: "sharpness", lvl: 255}]
+/give @s netherite_axe[enchantments={sharpness:255}]
+/locate structure minecraft:ancient_city
+/tp @s -1056 ~ -192
+/effect give @s minecraft:night_vision infinite 255 true
+/kill
+/summon wildlife:giraffe ~ ~ ~ {NoAI:1}
+/summon pig ~ ~ ~ {NoAI:1}
