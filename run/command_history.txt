@@ -10,3 +10,5 @@
 /kill
 /summon wildlife:giraffe ~ ~ ~ {NoAI:1}
 /summon pig ~ ~ ~ {NoAI:1}
+/effect give @s minecraft:night_vision infinite 255 true
+/give @s netherite_axe[enchantments={sharpness:255}]
